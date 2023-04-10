@@ -1,0 +1,13 @@
+[2022-06-27 04:57:10] production.ERROR: The "" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"\" directory does not exist. at /home/learnvps/public_html/vendor/symfony/finder/Finder.php:548)
+[stacktrace]
+#0 /home/learnvps/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /home/learnvps/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /home/learnvps/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /home/learnvps/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /home/learnvps/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /home/learnvps/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/learnvps/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /home/learnvps/public_html/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 /home/learnvps/public_html/index.php(22): require_once('/home/learnvps/...')
+#9 {main}
+"} 

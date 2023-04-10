@@ -1,0 +1,32 @@
+<!--<tbody>
+						 
+							if(!empty($employeedashboard)){
+								$i=0;
+								foreach($employeedashboard as $employe){
+								 	$i++;
+							?>
+								<tr>
+								<td> <?php echo $employe->emp_code; ?></td>								 
+								<td><?php  echo $employe->first_name.' '.$employe->last_name; ?>
+								<td><?php echo $employe->department; ?></td>
+								<td><?php echo $employe->fixed_salary; ?></td>							 
+								<td><?php echo $employe->leaves; ?></td>				
+								<td><?php echo $employe->incentive; ?></td>				
+								<td><?php echo $employe->extra_work; ?></td>
+								<td><?php echo $employe->temp_advance; ?></td>	
+								<td><?php echo $employe->fixed_salary-$employe->leaves-$employe->temp_advance+($employe->incentive+$employe->extra_work); ?>	</td>			
+								 	
+								<td><?php echo $employe->paid_amount; ?>	</td>			
+								<td>	<?php echo $employe->fixed_salary-$employe->leaves-$employe->temp_advance+($employe->incentive+$employe->extra_work) - $employe->paid_amount; ?></td>			
+							
+								<td><?php echo $employe->curr_advance; ?></td>
+							  
+								 <td>
+								 <a href="javascript:dashboardController.getpayform('<?php echo $employe->id ?>')" title="Pay Invoice" class="btn btn-info"><i class="fa fa-inr"></i></a>  <a href="javascript:dashboardController.getleavesform('<?php echo $employe->id ?>')" title="Paid Leaves" class="btn btn-info"><i class="fa fa-pagelines"></i></a>  <a href="javascript:dashboardController.getincentiveform('<?php echo $employe->id ?>')" title="Pay Incentive" class="btn btn-info">INC </a>  <a href="javascript:employeeController.getpaymentform('<?php echo $employe->id ?>')" title="Extra Work" class="btn btn-info">EXT</a>  <a href="javascript:employeeController.getinvoicepayhistorytable('<?php echo  $employe->id ?>')" title="Summery Payment" class="btn btn-info"><i class="fa fa-bars" aria-hidden="true"></i></a>
+								 
+								  
+								 
+								 </td>
+								</tr>
+							<?php  //} } ?>
+								</tbody>-->

@@ -1,0 +1,17 @@
+Expert icon:   fa fa-code
+
+Creative Designer:  fa fa-camera-retro
+
+Application  :  fa fa-connectdevelop
+
+Social market:  fa fa-support
+
+Seo Expert :  fa fa-bar-chart	
+
+QA /Testiong : fa fa-comments
+
+It Software development : fa fa-ticket
+
+Cloud Computing  : fa fa-cogs
+
+SAP/ERP?DATA BASAE   : fa fa-database
